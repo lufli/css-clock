@@ -1,0 +1,11 @@
+.one{
+  margin: auto;
+  width: 240px;
+  height: 240px;
+  border: 1px black solid;
+  border-radius:50%;
+  box-shadow: 2px 2px 4px black ;
+  background:-webkit-gradient(radial,120 120,0,120 120,120,from(#ffe),to(#eee));  /* chrome */
+  background:-moz-radial-gradient(circle closest-side,#ffe 0%,#eee 100%);       /* firefox */
+  position: relative;
+}
